@@ -1,0 +1,41 @@
+디자인 패턴
+자주 사용하는 설계 패턴을 정형화 해서 이를 유형별로 가장 최적의 방법으로 개발할 수 있도록 정해둔 설계
+
+Gof 디자인 패턴
+(Gang of Four) 총 23개 
+
+	생성 패턴 : 객체를 생성하는 것과 관련된 패턴으로, 객체의 생성과 변경이 전체 
+	시스템에 미치는 영향을 최소화 하고, 코드의 유연성을 높임.
+	1) Factory Method
+	2) Singleton
+	3) Prototype
+	4) Builder
+	5) Abstract Factory
+	6) Chaining
+
+	구조 패턴 : 프로그램 내의 자료구조나 인터페이스 구조 등 프로그램 구조를 설	계하는데 활용 될 수 있는 패턴 클래스, 객체들의 구성을 통해서 더 큰 구조를 만
+	들 수 있게 해준다.
+	큰 규모의 시스템에서는 많은 클래스들이 서로 의존성을 가지게 되는데, 이런 복
+	잡한 구조를 개발 하기 쉽게 만들어 주고, 유지 보수 하기 쉽게 만들어 준다.
+	1) Adapter
+	2) Composote
+	3) Bridge
+	4) Decorator
+	5) Facade
+	6) Flyweight
+	7) Proxy
+
+	행위 패턴 : 반복적으로 사용되는 객체들의 상호작용을 패턴화한 것
+	클래스나 객체들이 상호작용하는 방법과 책임을 분산하는 방법을 제공 한다.
+	행위 패턴은 행위 패턴을 사용하여 독립적으로 일을 처리하고자 할 때 사용.
+	1) Template Method
+	2) Interpreter
+	3) Iterator
+	4) Observer
+	5) Strategy
+	6) Visitor
+	7) Chain of responsibility
+	8) Command
+	9) Mediator
+	10) state
+	11) Memento

@@ -1,0 +1,7 @@
+Proxy Pattern
+
+Proxy (대리인) -> 뭔가를 대신 처리
+실제 client는 Proxy로 부터 결과를 받는다.
+
+Cache의 기능으로도 활용이 가능하다.
+SOLID 중에서 개방폐쇄 원칙(OCP)과 의존역전 원칙(DIP)를 따름.
